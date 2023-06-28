@@ -1,0 +1,25 @@
+* {
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+}
+
+html,
+body {
+    height: 100%;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    position: relative;
+}
+input[type="submit"] {
+    background-color: white;
+    color: rgb(70, 52, 232);
+    padding: 10px;
+}
+body {
+    background-color: lightskyblue;
+}

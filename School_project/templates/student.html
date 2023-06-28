@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<title>Result Portal</title>
+<link rel="stylesheet" href="../static/css/empstyle.css">
+<head>
+</head>
+<body>
+<h1>RESULT MANAGMENT</h1>
+<h2>ADD STUDENTS RESULT</h2>
+<form action='/read' method="post">
+    <table>
+        <tr>
+            <td>
+                STUDENT ROLL_NO
+            </td>
+            <td>
+                <input type="number" name="rollno">
+            </td>
+        </tr>
+        <tr></tr>
+                <tr>
+            <td>
+                STUDENT NAME
+            </td>
+            <td>
+                <input type="text" name="name">
+            </td>
+        </tr>
+        <tr></tr>
+                        <tr>
+            <td>
+                GRADE
+            </td>
+            <td>
+                <input type="text" name="grade">
+            </td>
+        </tr>
+        
+        <tr></tr>
+                        
+        <tr>
+            <td>
+                PHONE_NUMBER
+            </td>
+            <td>
+                <input type="number" name="phone_number">
+            </td>
+        </tr>
+        <tr></tr>
+        <tr>
+            <td>
+            </td>
+            <td>
+                <input type="submit">
+            </td>
+        </tr>
+    </table>
+    {{msgdata}}
+</form>
+
+</body>
+</html>
